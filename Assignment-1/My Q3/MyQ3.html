@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="container" id="jobApplicationForm">
+        <h2 style="display: flex; justify-content: center;">Job Application Form</h2>
+        <form id="myForm">
+            <hr>
+            <h3>1. Personal Information:</h3>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="emailAddress">Email Address:</label>
+            <input type="email" id="emailAddress" name="emailAddress" required>
+
+            <label for="street">Street:</label>
+            <input type="text" id="street" name="street" required>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+
+            <label for="zipCode">ZIP Code:</label>
+            <input type="text" id="zipCode" name="zipCode" required>
+
+            <hr>
+            <h3>2. Resume and Cover Letter:</h3>
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx">
+
+            <label for="coverLetter">Cover Letter:</label>
+            <textarea id="coverLetter" name="coverLetter" rows="4"></textarea>
+
+            <hr>
+            <h3>3. Education:</h3>
+            <label for="educationLevel">Highest Level of Education Attained:</label>
+            <select id="educationLevel" name="educationLevel">
+                <option value="highSchool">High School</option>
+                <option value="associate">Associate's Degree</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="doctorate">Doctorate</option>
+            </select>
+
+            <label for="schoolName">Name of School/University:</label>
+            <input type="text" id="schoolName" name="schoolName" required>
+
+            <label for="major">Major/Area of Study:</label>
+            <input type="text" id="major" name="major" required>
+
+            <label for="graduationYear">Graduation Year:</label>
+            <input type="text" id="graduationYear" name="graduationYear" required>
+
+            <hr>
+            <h3>4. Employment History:</h3>
+            <label for="jobTitles">Previous Job Titles:</label>
+            <input type="text" id="jobTitles" name="jobTitles" required>
+
+            <label for="companyNames">Company Names:</label>
+            <input type="text" id="companyNames" name="companyNames" required>
+
+            <label for="employmentDates">Employment Dates:</label>
+            <input type="text" id="employmentDates" name="employmentDates" required>
+
+            <label for="jobResponsibilities">Job Responsibilities:</label>
+            <textarea id="jobResponsibilities" name="jobResponsibilities" rows="4"></textarea>
+
+            <hr>
+            <h3>5. Skills:</h3>
+            <label for="relevantSkills">Relevant Skills:</label>
+            <input type="text" id="relevantSkills" name="relevantSkills" required>
+
+            <label for="certifications">Certifications:</label>
+            <input type="text" id="certifications" name="certifications">
+
+            <hr>
+            <h3>6. Availability:</h3>
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+
+            <label for="workSchedule">Preferred Work Schedule:</label>
+            <input type="text" id="workSchedule" name="workSchedule" required>
+
+            <label>
+                <input type="checkbox" id="relocate" name="relocate">
+                Willingness to Relocate
+            </label>
+
+            <hr>
+            <h3>7. References:</h3>
+            <label for="referenceName">Reference Name:</label>
+            <input type="text" id="referenceName" name="referenceName" required>
+
+            <label for="referenceContact">Reference Contact Information:</label>
+            <input type="text" id="referenceContact" name="referenceContact" required>
+
+            <label for="relationship">Relationship to Applicant:</label>
+            <input type="text" id="relationship" name="relationship" required>
+
+            <hr>
+            <h3>8. Additional Questions:</h3>
+            <label for="whyWorkHere">Why do you want to work for this company?</label>
+            <textarea id="whyWorkHere" name="whyWorkHere" rows="4"></textarea>
+
+            <hr>
+            <h3>9. Consent and Agreement:</h3>
+            <label>
+                <input type="checkbox" id="agree" name="agree" required>
+                I agree to the terms and conditions
+            </label>
+
+            <label>
+                <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+                I acknowledge the privacy policy
+            </label>
+        </form>
+    </div>
+
+</body>
+</html>
