@@ -149,7 +149,6 @@ document.addEventListener('DOMContentLoaded', function () {
             referenceContact: referenceContact,
             relationship: relationship,
             whyWorkHere: whyWorkHere
-            // Add more data as needed
         });
     }
 

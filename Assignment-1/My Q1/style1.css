@@ -11,10 +11,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans', sans-serif;}
     }
 
 .L-column {
-    width: 31%; /* 1/3 width minus some margin for spacing */
-    margin-right: 16px; /* Add some margin to the right for spacing */
-    float: left; /* Float the element to the left to create a horizontal layout */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
+    width: 31%; 
+    margin-right: 16px;
+    float: left; 
+    box-sizing: border-box; 
     }
 .L-card{
     background-color: lightgoldenrodyellow;
@@ -36,17 +36,17 @@ img{
     border-radius: 10px;
 }
 .info-box{
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 16px; /* Add padding to the container */
-    max-width: 430px; /* Set a maximum width for the container */
-    box-sizing: border-box; /* Include padding in the total width */
+    margin: 0 auto; 
+    padding: 16px;
+    max-width: 430px;
+    box-sizing: border-box;
 }
 .fa_custom {
     color: rgb(77, 77, 77)
 }
 .custom-line {
-    border: 1px solid #333; /* Customize border color and style */
-    margin: 20px 0; /* Add margin for spacing */
+    border: 1px solid #333; 
+    margin: 20px 0; 
   }
 
 h1{
@@ -58,16 +58,16 @@ h2,li{
     color:black;
 }
 .R-column {
-    width: 65%; /* 2/3 width minus some margin for spacing */
-    margin-right: 16px; /* Add some margin to the right for spacing */
-    float: right; /* Float the element to the left to create a horizontal layout */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
+    width: 65%;
+    margin-right: 16px;
+    float: right;
+    box-sizing: border-box; 
 }
 .R-card{
     background-color: lightgoldenrodyellow;
     color: gray; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    margin-bottom: 16px; /* Add a bottom margin for spacing */
-    padding: 16px; /* Add padding for content spacing inside the container */
+    margin-bottom: 16px; 
+    padding: 16px;
 }
